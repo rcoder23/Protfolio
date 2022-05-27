@@ -245,7 +245,7 @@ color:white;
 
 @media(max-width:480px) {
     .title .container{
-        height: 1010px;
+        height: 1000px;
         flex-direction: column;
         justify-content: start;
         padding: 10px;
@@ -253,6 +253,10 @@ color:white;
         
     }
 
+
+    .title .container .ima h2{
+        text-align: center;
+    }
     .title .info{
        color:black;
         /* text-align: center; */
@@ -288,8 +292,14 @@ color:white;
     .project .containerP .card{
         height: 360px;
         padding: 17px;
+        
         margin-top: -20px;
         margin-left:60px;
+    }
+
+    
+    .project .containerP .card p{
+       padding: 10px;
     }
 
    
